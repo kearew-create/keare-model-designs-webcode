@@ -6,46 +6,78 @@
   <meta name="description" content="Keare Model Designs – Custom apparel and branding for expressive, inclusive fashion." />
   <title>Keare Model Designs</title>
   <style>
+    :root {
+      --black: #111111;
+      --gold: #d4af37;
+      --pink: #ff4081;
+    }
+
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: #f5f5f5;
-      color: #333;
-    }
-    header, footer {
-      background: #222;
+      background: var(--black);
       color: white;
+    }
+
+    header, footer {
+      background: var(--black);
+      color: var(--gold);
       padding: 1em;
       text-align: center;
     }
+
     nav a {
       margin: 0 1em;
-      color: white;
+      color: var(--pink);
       text-decoration: none;
+      font-weight: bold;
     }
+
+    nav a:hover {
+      color: var(--gold);
+    }
+
     main {
       padding: 2em;
+      background: #222;
     }
+
     section {
       margin-bottom: 2em;
+      background: #333;
+      padding: 1.5em;
+      border-radius: 8px;
+      border: 2px solid var(--gold);
     }
+
+    h1, h2 {
+      color: var(--gold);
+    }
+
     form input, form select {
       display: block;
       margin: 0.5em 0;
       padding: 0.5em;
       width: 100%;
       max-width: 400px;
+      border: 1px solid var(--gold);
+      border-radius: 4px;
     }
+
     .cta {
-      background: #ff4081;
+      background: var(--pink);
       color: white;
       padding: 0.75em 1.5em;
       border: none;
       cursor: pointer;
+      font-weight: bold;
+      border-radius: 4px;
     }
+
     .cta:hover {
-      background: #e91e63;
+      background: var(--gold);
+      color: var(--black);
     }
   </style>
 </head>
@@ -121,8 +153,6 @@
   </script>
 </body>
 </html>
-## Live Site  
-[Visit the drafted website](https://kearew-create.github.io/keare-model-designs-webcode/)
 
 ## Repo  
 https://github.com/kearew-create/keare-model-designs-webcode

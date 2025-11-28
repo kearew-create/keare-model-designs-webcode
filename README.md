@@ -1,7 +1,4 @@
-# Keare Model Designs – Drafted Website
-/index.html
-/css/styles.css
-/js/script.js
+
 
 
 ## Live Site  

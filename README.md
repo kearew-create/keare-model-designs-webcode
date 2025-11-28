@@ -96,6 +96,33 @@
       <h2>About Us</h2>
       <p>We create custom apparel and branding that celebrates identity, style, and representation.</p>
     </section>
+<section id="shop">
+  <h2>Featured Products</h2>
+  <p>Explore our expressive fashion line — designed for real people with bold vision.</p>
+
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="images/shirt.jpg" alt="Custom Gold Logo Shirt" />
+      <h3>Gold Logo Tee</h3>
+      <p>Bold identity on soft cotton.</p>
+      <button class="cta">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/hoodie.jpg" alt="Pink Accent Hoodie" />
+      <h3>Pink Accent Hoodie</h3>
+      <p>Comfort meets expressive style.</p>
+      <button class="cta">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/cap.jpg" alt="Black & Gold Cap" />
+      <h3>Black & Gold Cap</h3>
+      <p>Minimalist design with luxury detail.</p>
+      <button class="cta">Add to Cart</button>
+    </div>
+  </div>
+</section>
 
     <section id="shop">
       <h2>Featured Products</h2>
